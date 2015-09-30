@@ -1,0 +1,175 @@
+body {
+font:0.8em Verdana,Helvetica,sans-serif;
+background:#F8F8F6;
+background-color:#333;
+color:#fff;
+}
+a{
+	text-decoration:none; color:#0f0;}
+a:active{
+	text-decoration:none; color:#0f0;
+	}
+a:link{
+	text-decoration:none;color:#0f0; 
+	}
+a:visited{
+	
+	color:#F30;}
+code {
+font-size:1.2em;
+}
+
+div#rightcol {
+padding-left:32em;
+}
+
+fieldset {
+display:block;
+margin:0.5em 0;
+padding:1em;
+border:solid #7284AB 2px;
+color:#fff;
+}
+
+h1 {
+font-size:2em;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+small {
+font-size:0.7em;
+}
+
+fieldset#field_input {
+float:left;
+margin:0 0.5em 1em 0;
+}
+
+fieldset#options,fieldset#code_layout {
+width:31em;
+}
+
+input#submit {
+clear:both;
+display:block;
+margin:1em;
+}
+
+select {
+margin:2px 0 0;
+}
+
+label.block {
+display:block;
+}
+
+legend {
+background:#F90;
+padding:2px 4px;
+border:dashed 1px;
+color:#000;
+}
+
+span.at {
+color:darkblue;
+}
+
+span.format {
+color:gray;
+}
+
+span.property {
+color:green;
+}
+
+span.selector {
+color:blue;
+}
+
+span.value {
+color:red;
+}
+
+span.comment {
+color:orange;
+}
+
+textarea#css_text {
+width:27em;
+height:370px;
+display:block;
+margin-right:1em;
+}
+
+.help {
+cursor:help;
+}
+
+p.important {
+border:solid 1px red;
+font-weight:bold;
+padding:1em;
+background:#f60;
+color:#000;
+top:20px;
+position:relavtive;
+
+}
+
+p {
+margin:1em 0;
+}
+
+dl {
+padding-left:0.5em;
+}
+
+dt {
+font-weight:bold;
+margin:0;
+float:left;
+clear:both;
+height:1.5em;
+}
+
+dd {
+margin:0 0 0 4em;
+height:1.5em;
+}
+
+fieldset#messages {
+background:white;
+padding:0 0 0 1em;
+}
+
+fieldset#messages div {
+height:10em;
+overflow:auto;
+}
+
+dd.Warning {
+color:orange;
+}
+
+dd.Information {
+color:green;
+}
+
+.btn{
+	background:#0C0C0C;;
+	
+	width:150px;
+	color:#F90;
+	cursor:pointer;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:16px;
+	margin:1px;
+	margin-left:2px;
+	margin-top:2px;
+	padding:3px 3px;
+	text-decoration:none;
+	border:solid 1px #F90;
+	}
+
+.btn:hover{background:#333; }
+.btn:active{background:#F60; color:#000; }
